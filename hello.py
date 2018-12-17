@@ -7,6 +7,12 @@ import random
 squares = [number*number for number in range(1, 10)]
 print (squares)
 
-class Kit_slovo:
-    def add(slovo):
-        return slovo
+class Dog:
+    def __init__(self, name, age):
+        self.name = name.title()
+        self.age = age
+    def say_my_name(self):
+        return 'Gav Gav, my name is', self.name
+
+bobik = Dog('baron', 22)
+print(bobik.say_my_name())

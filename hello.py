@@ -1,4 +1,6 @@
-print ("hellow WORLD!")
+"""
+program by hotmathcer
+"""
 
 
 import random
@@ -14,6 +16,7 @@ class Dog:
         self.age = age
         self.hungry = 100
         zverinec.append(self.name)
+        print (self.name, self.age)
     def say_my_name(self):
         self.hungry -= 10
         return 'Gav Gav, my name is', self.name
@@ -26,12 +29,12 @@ class Dog:
             return "please, I'm die, I want eat"
 
 
-bobik = Dog('baron', 22)
-print(bobik.say_my_name())
-print(bobik.say_my_name())
-print(bobik.feed())
-print(bobik.say_my_name())
-print(bobik.say_my_name())
-print(bobik.feed())
-print(bobik.hungry)
-print(zverinec)
+# bobik = Dog('baron', 22)
+# print(bobik.say_my_name())
+# print(bobik.say_my_name())
+# print(bobik.feed())
+# print(bobik.say_my_name())
+# print(bobik.say_my_name())
+# print(bobik.feed())
+# print(bobik.hungry)
+#print(zverinec)
